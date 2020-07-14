@@ -1,0 +1,435 @@
+[15-Jul-2019 08:44:45 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:44:45 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:44:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:44:48 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:44:48 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:44:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:47:45 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:47:45 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:47:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:47:48 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:47:48 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:47:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:51:38 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:51:39 UTC] PHP Warning:  require(/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[15-Jul-2019 08:51:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/softmaha/ebidding.softmahal.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/softmaha/ebidding.softmahal.com/public/index.php on line 24
+[17-Nov-2019 18:54:04 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 15:02:11 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 15:02:17 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 15:02:20 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:16:28 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:16:51 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:17:03 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:17:05 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:17:06 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:18:20 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:03 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:10 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:11 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:12 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:13 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:14 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:16 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[19-Nov-2019 21:20:18 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Nov-2019 08:25:49 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 16:31:19 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 16:31:33 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 16:31:38 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 16:31:39 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 16:31:40 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 16:31:41 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 17:13:42 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[21-Nov-2019 17:13:48 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:18 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:23 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:24 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:25 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:26 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:27 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[22-Nov-2019 19:52:27 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[27-Nov-2019 11:27:16 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[07-Dec-2019 08:41:48 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[09-Dec-2019 12:31:32 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[09-Dec-2019 12:31:47 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Dec-2019 19:12:40 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[14-Jan-2020 20:19:52 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[27-Jan-2020 18:13:50 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[13-Feb-2020 17:08:58 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[13-Feb-2020 17:11:16 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[18-Feb-2020 17:09:45 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Feb-2020 19:04:27 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Feb-2020 19:05:00 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[20-Feb-2020 19:05:03 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-May-2020 16:08:13 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[31-May-2020 12:00:35 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[10-Jun-2020 20:25:42 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[10-Jun-2020 20:25:55 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[24-Jun-2020 15:57:39 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:09:07 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:09:22 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:09:33 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:09:39 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:10:30 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:31:34 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[30-Jun-2020 14:31:44 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[01-Jul-2020 21:45:27 Asia/Kathmandu] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:458
+Stack trace:
+#0 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(458): PDOStatement->execute()
+#1 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `db...', Array)
+#2 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('insert into `db...', Array, Object(Closure))
+#3 /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\Database\Connection->run('insert into `db...', Array, Object(Closure))
+#4 /home/softmaha/ebidding.softmahal.com/vendor/laravel/f in /home/softmaha/ebidding.softmahal.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664

@@ -1,0 +1,29 @@
+            #header p{
+                margin:-10px;
+            }
+            #content{
+                width:100%;
+                min-height:200px;
+                margin-top:20px;
+                font-size:12px;
+                margin-bottom:5px;
+            }
+            #subject{
+                margin-top:15px;
+                margin-bottom: 20px;
+                font-size:12px;
+            }
+            .comments{
+                border-bottom: 1px solid #000;
+                padding: 10px;
+            }
+            .intro{
+                font-size:12px;
+                font-style:italic;
+            }
+            .intro > span{
+              font-size: 12px;
+			  
+            }
+            .commented-by{
+            }
